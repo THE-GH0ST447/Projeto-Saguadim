@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <title>LOGIN</title>
+</head>
+
+<body><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div id="container">
+
+        <div id="login">
+            <form action="login.php" method="post">
+                <label>EMAIL</label><br>
+                <input type="email" name="email" id="email" placeholder="E-MAIL" required />
+                <br>
+                <label>SENHA</label><br>
+                <input type="password" name="senha" id="senha" placeholder="*****" required />
+                <br>
+                <input type="submit" value="LOGIN" />
+                <br><br>
+                <h5>
+                    <a href="#" id="toggleCadastra"> NÃO TEM CONTA? CLIQUE AQUI</a>
+                </h5>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <div id="cadastra">
+            <form action="cadastra.php" method="post">
+                <label>LOGIN</label><br>
+                <input type="text" name="login" id="login" placeholder="LOGIN" required />
+                <label>EMAIL</label><br>
+                <input type="email" name="email" id="email" placeholder="E-MAIL" required />
+                <br>
+                <label>SENHA</label><br>
+                <input type="password" name="senha" id="senha" placeholder="*****" required />
+                <br>
+                <input type="submit" value="CADASTRAR" />
+                <br><br>
+                <h5>
+                    <a href="#" id="toggleLogin">TEM CONTA? CLIQUE AQUI</a>
+                </h5>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
